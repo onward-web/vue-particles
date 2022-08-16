@@ -17,7 +17,12 @@
     :hoverMode="hoverMode"
     :clickEffect="clickEffect"
     :clickMode="clickMode"
-  ></div>
+  >
+    <div class = "particles-js_content">
+      <slot/>
+    </div>
+
+  </div>
 </template>
 <script>
   /* eslint-disable */
